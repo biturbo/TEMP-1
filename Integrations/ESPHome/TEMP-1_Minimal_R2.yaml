@@ -8,9 +8,9 @@ esphome:
 
   project:
     name: "Apollo.TEMP-1_Minimal_R2"
-#    version: "${version}"
+    version: "${version}"
 
-#  min_version: 2024.2.0
+  min_version: 2024.2.0
   on_boot:
     priority: 800
     then:
@@ -74,8 +74,7 @@ esphome:
     - light.turn_off: rgb_light
 
 dashboard_import:
-  #package_import_url: github://ApolloAutomation/TEMP-1/Integrations/ESPHome/TEMP-1_Minimal_R2.yaml
-  package_import_url: github://biturbo/TEMP-1/Integrations/ESPHome/TEMP-1_Minimal_R2.yaml
+  package_import_url: github://ApolloAutomation/TEMP-1/Integrations/ESPHome/TEMP-1_Minimal_R2.yaml
   import_full_config: false
 
 ota:
