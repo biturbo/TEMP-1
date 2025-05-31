@@ -1,5 +1,5 @@
 external_components:
-  - source: github://ApolloAutomation/esphome-battery-component
+  - source: github://biturbo/esphome-battery-component
     components: [max17048] #Forked OptionZero
 
 deep_sleep:
