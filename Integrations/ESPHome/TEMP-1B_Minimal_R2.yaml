@@ -73,11 +73,7 @@ esphome:
   on_shutdown:
     - light.turn_off: rgb_light
 
-esp32:
-  board: esp32-c3-devkitm-1
-  framework:
-    type: arduino
-    
+
 dashboard_import:
 #  package_import_url: github://ApolloAutomation/TEMP-1/Integrations/ESPHome/TEMP-1B_Minimal_R2.yaml
   package_import_url: github://biturbo/TEMP-1/Integrations/ESPHome/TEMP-1B_Minimal_R2.yaml
