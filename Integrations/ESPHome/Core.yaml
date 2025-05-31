@@ -4,7 +4,8 @@ substitutions:
 esp32:
   board: esp32-c3-devkitm-1
   framework:
-    type: esp-idf
+    #type: esp-idf
+    type: arduino    
 #    version: 4.4.8
 #    platform_version: 5.4.0   
 
