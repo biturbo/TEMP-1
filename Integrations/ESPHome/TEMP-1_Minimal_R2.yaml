@@ -8,9 +8,9 @@ esphome:
 
   project:
     name: "Apollo.TEMP-1_Minimal_R2"
-    version: "${version}"
+#    version: "${version}"
 
-  min_version: 2024.2.0
+#  min_version: 2024.2.0
   on_boot:
     priority: 800
     then:
