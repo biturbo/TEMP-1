@@ -82,7 +82,7 @@ esphome:
     - light.turn_off: rgb_light
 
 dashboard_import:
-  package_import_url: github://ApolloAutomation/TEMP-1/Integrations/ESPHome/TEMP-1B_Minimal.yaml
+  package_import_url: github://biturbo/TEMP-1/Integrations/ESPHome/TEMP-1B_Minimal.yaml
   import_full_config: false
 
 improv_serial:
@@ -108,7 +108,7 @@ update:
   - platform: http_request
     id: firmware_update
     name: Firmware Update
-    source: https://apolloautomation.github.io/TEMP-1/firmware-b/manifest.json
+    source: https://biturbo.github.io/TEMP-1/firmware-b/manifest.json
 
 wifi:
   id: wifi_1
@@ -122,7 +122,7 @@ wifi:
 
 logger:
 
-packages:
+#packages:
   #core: !include Core.yaml
   #battery: !include Battery.yaml
   #100Resistance: !include 100Resistance.yaml
